@@ -12,6 +12,11 @@
 ## 코드 설명
 
 - login 함수 생성
+
+  ```
+  let InputId = document.querySelector("#userEmail");
+  ```
+  
 - document.querySelector("#userEmail") // userEmail id를 통해 input 태그 전체를 가져와 InputId.value로 입력 값을 받는다.
 - 부정 연산자를 사용하여 if의 조건식이 false일 때 명시된 클래스를 추가하는 classList 메서드 add를 사용하여 is--invalid 클래스를 추가, display를 block으로 설정, 문구가 보이도록 한다.
 - 비교 연산자를 사용해 InputId.value 값과 user.id 값이 동일하고 InputPw.value 값과 user.pw 값이 동일할 때 welcome.html로 이동하도록 한다.
