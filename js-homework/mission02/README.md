@@ -37,6 +37,6 @@ nickName.textContent = `${data[index - 1].name}`;
 nav.addEventListener("click", handleSlider);
 ```
 
-## 실행화면
+### 실행화면
 
 ![이미지](assets/image01.png)
